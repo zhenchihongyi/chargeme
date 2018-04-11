@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
@@ -142,3 +143,7 @@ except ImportError:
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
+LOGIN_URL='/accounts/login'
+LOGIN_REDIRECT_URL='/accounts/'
+LOGOUT_REDIRECT_URL='/accounts/login'

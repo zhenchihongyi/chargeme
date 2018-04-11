@@ -1,0 +1,28 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+<div class="form-wrapper">
+  <h1>Sign In</h1>
+  <form method="post" action="{% url 'accounts:login' %}">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {{ form.errors.username }}
+        {{ form.errors.password }}
+
+    <div class="form-item">
+        <input placeholder="ユーザー名" {{ form.username }}
+    </div>
+    <div class="form-item">
+        <input placeholder="Password"{{ form.password }}
+    </div>
+    <div class="button-panel">
+        <input type="submit" class="button" title="Sign In" value="ログイン"></input>
+    </div>
+  </form>
+  <div class="form-footer">
+    <p><a href="#">Create an account</a></p>
+    <p><a href="#">Forgot password?</a></p>
+  </div>
+</div>
+
+
+{% endblock content %}

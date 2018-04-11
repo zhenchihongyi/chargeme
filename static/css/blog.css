@@ -2,7 +2,7 @@
     background-color: #ff9400;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
-}
+}content container
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
@@ -11,7 +11,7 @@
 }
 
 .content {
-    margin-left: 40px;
+   margin: auto;
 }
 
 h1, h2, h3, h4 {
