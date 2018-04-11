@@ -20,7 +20,7 @@ body {
 /* Form Layout */
 .form-wrapper {
   background: #fafafa;
-  margin: 0 auto;
+  margin: 200 auto;
   padding: 0 1em;
   max-width: 1000px;
 }
