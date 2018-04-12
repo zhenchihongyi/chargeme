@@ -1,0 +1,38 @@
+{% extends 'accounts/base.html' %}
+{% block content %}
+<div class="form-wrapper">
+  <h1>ユーザー登録</h1>
+  <<form method="post" action="{% url 'accounts:create' %}">
+       {% csrf_token %}
+    {{ form.non_field_errors }}
+
+    <div class="form-item">
+        <input type="username" name="username" required="required" placeholder="ユーザー名"></input>
+        {{ form.errors.username }}
+
+    </div>
+    <div class="form-item">
+        <input type="password1" name="password1" required="required" placeholder="パスワード"></input>
+        {{ form.errors.password1 }}
+    </div>
+
+    <div class="form-item">
+        <input type="password2" name="password2" required="required" placeholder="確認用パスワード"></input>
+         {{ form.errors.password2 }}
+    </div>
+
+     <div class="form-item">
+        <input type="email" name="email" required="required" placeholder="E-mail"></input>
+         {{ form.errors.email }}
+    </div>
+
+    <div class="button-panel">
+        <input type="submit" class="button" title="Sign In" value="ユーザー登録"></input>
+    </div>
+  </form>
+  <div class="form-footer">
+  </div>
+</div>
+
+
+{% endblock content %}

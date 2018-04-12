@@ -1,2 +1,10 @@
-<p>{{ user.username }}様、ログインが成功しました</p>
-<p>あなたのメールアドレスは{{   user.email }}です。変更があれば、修正するようにお願いします。</p>
+
+{% extends 'accounts/base.html' %}
+{% block content %}
+<h1>{{ user.username }}様、ログインが成功しました</h1>
+<h1>あなたのメールアドレスは{{   user.email }}です。変更があれば、修正するようにお願いします。</h1>
+
+
+
+
+{% endblock content %}
