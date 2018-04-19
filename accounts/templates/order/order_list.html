@@ -1,0 +1,34 @@
+{% extends 'accounts/base.html' %}
+
+{% block content %}
+<h1>受注したオーダー一覧は以下のとおり</h1>
+<table class="table table-bordered table-striped table-hover ">
+    <thead>
+        <tr>
+            <th>オーダーID</th>
+            <th>ステーションID</th>
+            <th>バッテリID</th>
+            <th>開始時間</th>
+            <th>終了時間</th>
+            <th>価格</th>
+            <th>memo</th>
+            <th>ユーザーID</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for order in orders %}
+    <!-- 行全体を灰色に -->
+        <tr>
+            <th>{{order.id}}</th>
+            <th>{{order.station_id}}</th>
+            <th>{{order.battery_id}}</th>
+            <th>{{order.start_time}}</th>
+            <th>{{order.end_time}}</th>
+            <th>{{order.price}}</th>
+            <th>{{order.memo}}</th>
+            <th>{{order.user_id_id}}</th>
+        </tr>
+    {% endfor %}
+    <tbody>
+</table>
+{% endblock content %}

@@ -1,0 +1,119 @@
+[33mcommit 8c20dd44064ad8869f6c08da9882a1b995c89db2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Sat Apr 14 15:05:13 2018 +0900
+
+    Added user create(email) view to the website.
+
+[33mcommit 54d4b5813eebb7aaa13cf0a6a0c5c4f24cb6b54e[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Thu Apr 12 16:47:28 2018 +0900
+
+    Added user create view to the website.
+
+[33mcommit 201ebc7fe377a28bd4acaff1966d763afa9d0001[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Wed Apr 11 22:07:19 2018 +0900
+
+    Added login view to the website.
+
+[33mcommit 4d93b58f4963e72e7c6aa55259d9c4beb02a96ed[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Wed Apr 11 22:04:09 2018 +0900
+
+    Added login view to the website.
+
+[33mcommit f074f20c72e5dafe0bacb25ff6d00c5724f47813[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Wed Apr 11 22:01:04 2018 +0900
+
+    Added login view to the website.
+
+[33mcommit 715989f16e259ca5359442e7af2c407eb40ceca4[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Wed Apr 11 21:57:18 2018 +0900
+
+    Added login view to the website.
+
+[33mcommit 26296af61f822e75c85ce7d1a3af52bbc683e32b[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Wed Apr 11 17:09:27 2018 +0900
+
+    Added login view to the website.
+
+[33mcommit 81a05b40d5c078f5c474314c2cbdc70ad7f45d6b[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Wed Apr 11 12:44:33 2018 +0900
+
+    Added login view to the website.
+
+[33mcommit e9337d1bb3fa870c0d86235bd2b5b4afc5dc5f84[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Wed Apr 11 12:17:31 2018 +0900
+
+    Added more views to the website.
+
+[33mcommit df4de506d45a95021fd09255f98691da09f0b5be[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Wed Apr 11 10:42:05 2018 +0900
+
+    Added views to create/edit blog post inside the site.
+
+[33mcommit 7ec915014abe2e96e4af5c0a357f15bfa7bc3a7e[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 15:21:38 2018 +0900
+
+    Changed the HTML for the site.
+
+[33mcommit 86140e04c1382caf920045295a217646f3b4112f[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 13:28:37 2018 +0900
+
+    My Django Girls app
+
+[33mcommit 8d4eadad3c12ab17aae0404a4dd5e460726bdd20[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 13:21:19 2018 +0900
+
+    My Django Girls app
+
+[33mcommit abd36f68dc3a774c2a81c2161b48b929ede4c57c[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 13:19:48 2018 +0900
+
+    My Django Girls app
+
+[33mcommit 782c75384cc8321d3ce3b46a0cef114a66dc971e[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 13:17:39 2018 +0900
+
+    My Django Girls app
+
+[33mcommit a970496b8358d25006805ffe493ebf41e7049990[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 13:16:49 2018 +0900
+
+    My Django Girls app
+
+[33mcommit d9c04f63caa8268b5c0dac06f85dd7f1bca3e42f[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 13:16:14 2018 +0900
+
+    My Django Girls app
+
+[33mcommit a91036f30bc537c90bdc3f3b9764cea1a6fef663[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 13:07:46 2018 +0900
+
+    My Django Girls app
+
+[33mcommit 0a424d09fe38597a6fa053e9baf839e7bb9880a4[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 13:06:15 2018 +0900
+
+    My Django Girls app
+
+[33mcommit db4985fc47ff2875fce0b7fa511b08c99dab9fc9[m
+Author: tiger <qi.zhang@aurora-lab.co.jp>
+Date:   Tue Apr 10 12:54:37 2018 +0900
+
+    My Django Girls app

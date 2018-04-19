@@ -1,10 +1,15 @@
-
 {% extends 'accounts/base.html' %}
+
 {% block content %}
 <h1>{{ user.username }}様、ログインが成功しました</h1>
 <h1>あなたのメールアドレスは{{   user.email }}です。変更があれば、修正するようにお願いします。</h1>
-
-
-
-
+index
+    {% for order in orders %}
+index
+        <div class="post">
+            <div class="date">
+                {{ order.end_date }}
+            </div>
+        </div>
+    {% endfor %}
 {% endblock content %}

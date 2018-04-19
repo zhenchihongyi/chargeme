@@ -11,4 +11,5 @@ urlpatterns = [
     url(r'^logout$', auth_views.logout, name='logout'),
     url(r'^new$', views.new, name='new'),
     url(r'^create$', views.create, name='create'),
+    url(r'^order_list$', views.order_list, name='order_list'),
 ]
