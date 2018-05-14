@@ -1,0 +1,13 @@
+{% extends 'accounts/base.html' %}
+
+{% block content %}
+<h1>{{ user.username }}様、吐き出されるバッテリから充電ケーブルを引き出し、手元の電子デバイスとつないでご利用ください</h1>
+<h1>今利用しようとするバッテリステーションは{{ order.station_id }}です。</h1>
+<form method="post" action="{% url 'accounts:return_to_indexpage' %}">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+    <div class="button-panel">
+        <input type="submit" class="button" title="return" value="戻る"></input>
+    </div>
+</form>
+{% endblock content %}

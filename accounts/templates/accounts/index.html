@@ -2,8 +2,18 @@
 
 {% block content %}
 <h1>{{ user.username }}様、ログインが成功しました</h1>
-<h1>あなたのメールアドレスは{{   user.email }}です。変更があれば、修正するようにお願いします。</h1>
-index
+<h4>あなたのメールアドレスは{{   user.email }}です。変更があれば、修正するようにお願いします。</h4>
+<h1>今利用しようとするバッテリステーションは{{ station_id }}です。</h1>
+<form method="post" action="{% url 'accounts:create_order' %}">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {{ form.errors.username }}
+        {{ form.errors.password }}
+
+    <div class="button-panel">
+        <input type="submit" class="button" title="Sign In" value="借りる"></input>
+    </div>
+  </form>
     {% for order in orders %}
 index
         <div class="post">
